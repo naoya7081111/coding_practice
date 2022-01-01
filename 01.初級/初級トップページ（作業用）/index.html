@@ -31,17 +31,40 @@
 		<!-- headerここまで -->
 
 		<!-- mainimageここから -->
-		<div id="mainimage"></div>
+		<div id="mainimage">
+			<img src="images/mainimage.jpg" alt="メイン画像">
+		</div>
 		<!-- mainimageここまで -->
 	
 		<!-- floatは浮いているので、left、rightどちらにも必要
 		     インラインやテキストはfloatで回り込めるが、ブロック要素には重なるのでどちらにもfloatを指定する必要あり -->
 		<!-- leftここから -->
-		<div id="left"></div>
+		<div id="left">
+			<ul>
+				<li><a id="icon_tel" href="#">お電話でのご予約はこちらから</a></li>
+				<li><a id="icon_blog" href="#">院長のブログ</a></li>
+				<li><a id="icon_voice" href="#">お客様の声</a></li>
+			</ul>
+		</div>
 		<!-- leftここまで -->
 	
 		<!-- rightここから -->
-		<div id="right"></div>
+		<div id="right">
+			<h2>お知らせ</h2>
+			<dl>
+				<dt>2014.12.12</dt>
+				<dd>ネストクリニックの10周年記念コンサートのお知らせ</dd>
+				<dt>2014.12.12</dt>
+				<dd>平和祈念図書館の開催日時変更についてお知らせ</dd>
+				<dt>2014.12.12</dt>
+				<dd>元気がです珈琲試飲会のお知らせ</dd>
+				<dt>2014.12.12</dt>
+				<dd>募金活動の結果</dd>
+				<dt>2014.12.12</dt>
+				<dd>年末年始も営業します</dd>
+				<div class="clearfix"></div>
+			</dl>
+		</div>
 		<!-- rightここまで -->
 
 		<div class="clearfix"></div>
@@ -49,7 +72,24 @@
 	</div>
 	<!-- wapperここまで -->
 
-	<footer></footer>
+	<footer>
+		<div id="footer_inner">
+			<p id="pagetop">
+				<a href="#">PAGE TOP</a>
+			</p>
+			<p id="footer_logo">
+				<img src="images/logo_footer.png" alt="まごころと優しさを大切に、ネストクリニック">
+			</p>
+			<ul>
+				<li><a href="#">ネストクリニックについて</a></li>
+				<li><a href="#">担当医の紹介</a></li>
+				<li><a href="#">医院内の紹介</a></li>
+				<li><a href="#">アクセス</a></li>
+				<div class="clearfix"></div>
+			</ul>	
+			<div class="clearfix"></div>
+		</div>
+	</footer>
 
 </body>
 
