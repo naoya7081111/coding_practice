@@ -74,21 +74,31 @@
                     </tr>
                     <tr>
                         <td class="form_title">
-                            <label for="form_name">お名前</label>
+                            <label for="form_menu">ご希望メニュー</label>
                         </td>
                         <td class="form_content">
-                            <input id="form_name" type="text">
+                            <input id="menu_cut" type="checkbox" value="カット">
+                            <label for="menu_cut">カット</label>
+
+                            <input id="menu_color" type="checkbox" value="カラー">
+                            <label for="menu_color">カラー</label>
+
+                            <input id="menu_perm" type="checkbox" value="パーマ">
+                            <label for="menu_perm">パーマ</label>
                         </td>
                     </tr>
                     <tr>
                         <td class="form_title">
-                            <label for="form_name">お名前</label>
+                            <label for="form_textarea">お客様ご要望欄</label>
                         </td>
                         <td class="form_content">
-                            <input id="form_name" type="text">
+                            <textarea name="" id="form_textarea" cols="30" rows="10"></textarea>
                         </td>
                     </tr>
                 </table>
+                <p id="submit">
+                    <input type="submit" value="送信する">
+                </p>
             </form>
         </div>
         <!-- 左はここまで -->
@@ -96,7 +106,7 @@
         <!-- 右ここから -->
         <div id="right">
             <ul>
-                <li><a class="box-shadow" id="contact" href="#">ご予約・お問い合わせ</a></li>
+                <!-- <li><a class="box-shadow" id="contact" href="#">ご予約・お問い合わせ</a></li> -->
                 <li><a class="box-shadow" id="blog" href="#">スタイリストブログ</a></li>
             </ul>
         </div>
